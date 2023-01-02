@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Address {
 	public WebDriver driver;
+	
 	@FindBy(xpath="//span[text()='Add New Address']")
 	private WebElement addaddress;
 	
